@@ -1,0 +1,19 @@
+#mainText {
+  height: 110%;
+}
+
+#mainText table {
+  margin-left: 50px;
+}
+
+#mainText img {
+  width: 100%;
+}
+
+#mainText #firstColumn {
+  width: 40%;
+}
+
+#mainText p{
+  font-size: 30px;
+}

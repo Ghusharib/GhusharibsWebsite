@@ -2,9 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Ghusharib Chohan - Education</title>
+    <title>Ghusharib Chohan - Skills and Work</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="skills.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   </head>
   <body>
     <div id="sidebar">
@@ -12,7 +13,7 @@
         <h1> Ghusharib Chohan </h1>
         <h2> Undergraduate Imperial College London </h2>
         <h2> Computing (Software Engineering) (MEng) </h2>
-        <img src="Images/ghusharib.jpeg" id="Ghusharib">
+        <img src="Images/ghusharib.jpeg" id="Ghusharib" alt="Ghusharib">
         <p> ________ </p>
       </div>
 
@@ -21,7 +22,7 @@
         <p> ________ </p>
         <a href="education.html"> <p> Education </p> </a>
         <p> ________ </p>
-        <a href="#" id="current"> <p> Skills and Work </p> </a>
+        <a href="#" id="current"> <p class="animated flipInY fast"> Skills and Work </p> </a>
         <p> ________ </p>
         <a href="projects.html"> <p> Projects </p> </a>
         <p> ________ </p>
@@ -32,17 +33,17 @@
           <tr>
             <td>
               <a href = "https://www.linkedin.com/in/Ghusharib">
-                <img class="logos" src="Images/LinkedIn.png", alt="LinkedIn">
+                <img class="logos" src="Images/LinkedIn.png" alt="LinkedIn">
               </a>
             </td>
             <td>
               <a href = "https://www.github.com/Ghusharib">
-                <img class="logos", id="github", src="Images/github.svg", alt="github">
+                <img class="logos" id="github" src="Images/github.svg" alt="github">
               </a>
             </td>
             <td>
-              <a href = "https://www.facebook.com/ghusharib.chohan">
-                <img class="logos", id="facebook", src="Images/FB.png", alt="facebook">
+              <a href="mailto:ghusharib@hotmail.com">
+                <img class="logos" id="email" src="Images/email.png" alt="ghusharib@hotmail.com">
               </a>
             </td>
           </tr>
@@ -53,7 +54,8 @@
     <div class="main">
       <h1 id="Welcome"> Skills & Work </h1>
       <div id="mainText">
-        <p> ________ </p>
+        <br> <br>
+        <div class="animated bounceIn">
         <p> Programming Languages (Proficient/Familiar): </p>
         <p class="subtext"> Java, C, HTML, CSS, SQL </p>
         <p class="subtext"> C++, Python, JavaScript, Haskell </p>
@@ -61,6 +63,8 @@
         <p> Development Software: </p>
         <p class="subtext"> IntelliJ, CLion, Android Studio, Linux, Github and Gitlab </p>
         <p> ________ </p>
+        </div>
+        <div class="animated fadeInRight delay-1s">
         <p> Work Experiences: </p>
         <p> ________ </p>
         <table>
@@ -86,6 +90,7 @@
           </tr>
         </table>
         <br>
+      </div>
       </div>
       <br> <br> <br>
     </div>

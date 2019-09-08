@@ -2,7 +2,7 @@
   float:left;
   width: 20%;
   height: 100%;
-  background-color: RGBA(255,247,0, 0.9);
+  background-color: RGBA(0,213,255, 0.9);
   position:fixed;
   padding: 0;
 }
@@ -121,10 +121,9 @@ td {
 #mainText {
   width: 100%;
   display: inline-block;
-  background-color: RGBA(255,254,222,0.9);
+  background-color: RGBA(196,245,255,0.9);
 }
 
-
-@@media () {
-
+.subtext {
+  font-size: 20px !important;
 }

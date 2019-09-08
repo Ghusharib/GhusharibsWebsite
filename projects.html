@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>Ghusharib Chohan - Projects</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="skills.css">
+    <link rel="stylesheet" type="text/css" href="projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   </head>
   <body>
     <div id="sidebar">
@@ -12,7 +13,7 @@
         <h1> Ghusharib Chohan </h1>
         <h2> Undergraduate Imperial College London </h2>
         <h2> Computing (Software Engineering) (MEng) </h2>
-        <img src="Images/ghusharib.jpeg" id="Ghusharib">
+        <img src="Images/ghusharib.jpeg" id="Ghusharib" alt="Ghusharib">
         <p> ________ </p>
       </div>
 
@@ -23,7 +24,7 @@
         <p> ________ </p>
         <a href="skills.html"> <p> Skills and Work </p> </a>
         <p> ________ </p>
-        <a href="#" id="current"> <p> Projects </p> </a>
+        <a href="#" id="current"> <p class="animated flipInY fast"> Projects </p> </a>
         <p> ________ </p>
       </div>
 
@@ -32,17 +33,17 @@
           <tr>
             <td>
               <a href = "https://www.linkedin.com/in/Ghusharib">
-                <img class="logos" src="Images/LinkedIn.png", alt="LinkedIn">
+                <img class="logos" src="Images/LinkedIn.png" alt="LinkedIn">
               </a>
             </td>
             <td>
               <a href = "https://www.github.com/Ghusharib">
-                <img class="logos", id="github", src="Images/github.svg", alt="github">
+                <img class="logos animated heartBeat" id="github" src="Images/github.svg" alt="github">
               </a>
             </td>
             <td>
-              <a href = "https://www.facebook.com/ghusharib.chohan">
-                <img class="logos", id="facebook", src="Images/FB.png", alt="facebook">
+              <a href="mailto:ghusharib@hotmail.com">
+                <img class="logos" id="email" src="Images/email.png" alt="ghusharib@hotmail.com">
               </a>
             </td>
           </tr>
@@ -51,9 +52,20 @@
     </div>
 
     <div class="main">
-      <h1 id="Welcome"> Projects </h1>
+      <h1 id="Welcome" class="animated fadeIn"> Projects </h1>
       <div id="mainText">
+        <br> <br>
+        <div class="animated fadeIn slow delay-1s">
         <p> Below is a range of projects that I have completed as a student over the past few years. Click on each project for more details.</p>
+        <p class="subtext"> or visit Github for more </p>
+          <div id="projects">
+          <a href = "Projects/photoEditor.html"> <p> Java Pair Project - Photo Editor Application in Android Studio </p> </a>
+          <a href = "Projects/CProject.html"> <p> C Group Project - Assembler and Emulator </p> </a>
+          <a href = "Projects/towerDefence.html"> <p> C++ Solo Project - Tower Defence Game </p> </a>
+          <a href = "Projects/hardware.html"> <p> Hardware University Coursework - Electronic Gate Alarm System <p> </a>
+          <br> <br>
+          </div>
+        </div>
       </div>
       <br> <br> <br>
     </div>

@@ -1,0 +1,12 @@
+.main a:hover {
+  font-weight: bold;
+}
+
+.main a{
+  text-decoration: none;
+}
+
+#projects p{
+  font-size: 25px;
+  margin-top: 25px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Ghusharib Chohan - Projects</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../projects.css">
+    <link rel="stylesheet" type="text/css" href="subProject.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  </head>
+  <body>
+    <div id="sidebar">
+      <div id="sidebarTop">
+        <h1> Ghusharib Chohan </h1>
+        <h2> Undergraduate Imperial College London </h2>
+        <h2> Computing (Software Engineering) (MEng) </h2>
+        <img src="../Images/ghusharib.jpeg" id="Ghusharib" alt = "Ghusharib">
+        <p> ________ </p>
+      </div>
+
+      <div id="menu">
+        <a href="../index.html"> <p> Home </p> </a>
+        <p> ________ </p>
+        <a href="../education.html"> <p> Education </p> </a>
+        <p> ________ </p>
+        <a href="../skills.html"> <p> Skills and Work </p> </a>
+        <p> ________ </p>
+        <a href="../projects.html"> <p> Projects </p> </a>
+        <p> ________ </p>
+      </div>
+
+      <div id="sidebarBottom">
+        <table>
+          <tr>
+            <td>
+              <a href = "https://www.linkedin.com/in/Ghusharib">
+                <img class="logos" src="../Images/LinkedIn.png" alt="LinkedIn">
+              </a>
+            </td>
+            <td>
+              <a href = "https://www.github.com/Ghusharib">
+                <img class="logos animated heartBeat" id="github" src="../Images/github.svg" alt="github">
+              </a>
+            </td>
+            <td>
+              <a href="mailto:ghusharib@hotmail.com">
+                <img class="logos" id="email" src="../Images/email.png" alt="ghusharib@hotmail.com">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="main">
+        <div id="mainText">
+          <br>
+          <p> <b> C Project Assembler Emulator - </b>  <a href=../projects.html> Back to Projects </a></p>
+          <p class="subtext"> Request for access to C Project </p>
+          <table>
+            <tr>
+              <td id="firstColumn"> <img src="emulator1.png"> <img src="c_project_code.png"> </td>
+              <td>
+              <p class="secondRow"> We created an Emulator, Assembler and Quiz App Server on a Raspberry Pi </p>
+              <p class="subtext"> <b> Emulator for an ARM 11 Processor. </b> This involved taking a binary input file and emualting the effects of the binary input on a virtual register. We created a virtual memory, multiple registers including a program counter and CPSR register, and stepping through each binary line. As we proceed, the control is passed to various helper methods which update the registers as required and processes until the end of the file is reached. This can emulate simple instructions like mov as well as far more complex instructions involving Single Data Transfer, Shifting and more. See photo on left for an example of an emulated file. </p>
+              <p class="subtext"> <b> Assembler for an ARM 11 Processor. </b> Making use of some of the code from the emulator, the assembler takes an assembly file involving mnemonics such as mov and converts them into binary outputs to be saved to a file. This file can then be interpreted by our Emulator or indeed an actual ARM 11 Processor such as on a Raspberry Pi (which is used to flash an LED). Significant complexities include having two pass in order to store values too large to be held in memory at the end of the file instead. </p>
+              <p class="subtext"> <b> Raspberry Pi Server for a quiz app </b> We made use of a Raspberry Pi in order to create a web server. This web server makes use of CGI scripts and dynamic HTML code in order to provide a user with an interface. The user can then proceed through the quiz and answer questions being greeteed with a final score at the end. This is as part of the extension to the C Project. </p>
+
+              <p class="subtext"> <b> See Github for more details on this project (need to request permission to view private repo) </b> </p>
+              </td>
+            </tr>
+          </table>
+          <br>
+        </div>
+      </div>
+
+  </body>
+</html>
