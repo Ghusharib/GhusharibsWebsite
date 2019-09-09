@@ -8,9 +8,55 @@
     <link rel="stylesheet" type="text/css" href="../projects.css">
     <link rel="stylesheet" type="text/css" href="subProject.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
+
+    <div class="topnav">
+      <a href="#home" class="active"> <p id="menuLogo"> Ghusharib Chohan </p></a>
+      <div id="myLinks">
+        <a href="../index.html"> <p> Home </p> </a>
+        <a href="../education.html"> <p> Education </p> </a>
+        <a href="../skills.html"> <p> Skills and Work </p> </a>
+        <a href="../projects.html"> <p> Projects </p> </a>
+        <table>
+          <tr>
+            <td>
+              <a href = "https://www.linkedin.com/in/Ghusharib">
+                <img class="logos" src="../Images/LinkedIn.png" alt="LinkedIn">
+              </a>
+            </td>
+            <td>
+              <a href = "https://www.github.com/Ghusharib">
+                <img class="logos animated heartBeat" id="github" src="../Images/github.svg" alt="github">
+              </a>
+            </td>
+            <td>
+              <a href="mailto:ghusharib@hotmail.com">
+                <img class="logos" id="email" src="../Images/email.png" alt="ghusharib@hotmail.com">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+
     <div id="sidebar">
+
       <div id="sidebarTop">
         <h1> Ghusharib Chohan </h1>
         <h2> Undergraduate Imperial College London </h2>
@@ -83,6 +129,13 @@
 
             All the three additional activities have a Go Back button and all four activity have a Save Button.
             </p>
+              </td>
+            </tr>
+          </table>
+          <table id="altTable">
+            <tr>
+              <td>
+                <img src="photoEditor.jpg">
               </td>
             </tr>
           </table>

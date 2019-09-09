@@ -1,5 +1,11 @@
 #mainText {
   height: 110%;
+  background-color: RGB(0,0,0,0);
+}
+
+body {
+  background-image: none;
+  background-color: RGBA(196,245,255,0.9) !important;
 }
 
 #mainText table {

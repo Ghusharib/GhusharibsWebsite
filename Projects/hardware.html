@@ -8,9 +8,55 @@
     <link rel="stylesheet" type="text/css" href="../projects.css">
     <link rel="stylesheet" type="text/css" href="subProject.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
+
+    <div class="topnav">
+      <a href="#home" class="active"> <p id="menuLogo"> Ghusharib Chohan </p></a>
+      <div id="myLinks">
+        <a href="../index.html"> <p> Home </p> </a>
+        <a href="../education.html"> <p> Education </p> </a>
+        <a href="../skills.html"> <p> Skills and Work </p> </a>
+        <a href="../projects.html"> <p> Projects </p> </a>
+        <table>
+          <tr>
+            <td>
+              <a href = "https://www.linkedin.com/in/Ghusharib">
+                <img class="logos" src="../Images/LinkedIn.png" alt="LinkedIn">
+              </a>
+            </td>
+            <td>
+              <a href = "https://www.github.com/Ghusharib">
+                <img class="logos animated heartBeat" id="github" src="../Images/github.svg" alt="github">
+              </a>
+            </td>
+            <td>
+              <a href="mailto:ghusharib@hotmail.com">
+                <img class="logos" id="email" src="../Images/email.png" alt="ghusharib@hotmail.com">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+
     <div id="sidebar">
+
       <div id="sidebarTop">
         <h1> Ghusharib Chohan </h1>
         <h2> Undergraduate Imperial College London </h2>
@@ -64,11 +110,17 @@
                 <p class="secondRow"> For my hardware coursework, I was tasked with creating an alarm system</p>
                 <p class="subtext"> The alarm system was intended to unlock and disable the alarm when the correct input was fed. The input being 11110.</p>
                 <p class="subtext"> This involved creating a finite state machine which progressed through various modes. At each mode, the alarm had the possibility of being triggered or going to the next stage upon which the next correct digit would have to be entered. Once all the correct digits were entered, the alarm would disable and the door would be unlocked.</p>
-                <p class="subtext"> The top image shows the logic gates and setup created at the end to make the alarm system. It involves three inputs, DATA, CLOCK and RESET. These along with three D-Q flip flops create the alarm system. The circuit is minimised by using as many NAND and NOR gates as possible as these use less space on a physical chip. </p>
+                <p class="subtext"> The first image shows the logic gates and setup created at the end to make the alarm system. It involves three inputs, DATA, CLOCK and RESET. These along with three D-Q flip flops create the alarm system. The circuit is minimised by using as many NAND and NOR gates as possible as these use less space on a physical chip. </p>
                 <p class="subtext"> The second image shows the output of the generated alarm system. The output shows that upon the correct input, the alarm is turned off and the door is unlocked. </p>
                 <p class="subtext"> More detail can be seen in the final report on the github repo </p>
 
               </td>
+            </tr>
+          </table>
+          <table id="altTable">
+            <tr>
+              <td> <img src="https://raw.githubusercontent.com/Ghusharib/HardwareAlarmSystem/master/Coursework%202/Images/ThirdStep.jpg" alt=""> </td>
+              <td> <img src="" alt=""> <br> <br> <img src="https://raw.githubusercontent.com/Ghusharib/HardwareAlarmSystem/master/Coursework%202/Images/Zoomed%20Wave.bmp" alt=""> </td>
             </tr>
           </table>
           <br>
